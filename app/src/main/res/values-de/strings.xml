@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Speedometer</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="check_reminder">Du musst der Datenschutzerklärung zustimmen, um fortfshren zu können</string>
+    <string name="dialog_message">Dein GPS scheint ausgeschaltet zu sein. Damit die App richtig funktioniert, muss GPS aktiviert sein.</string>
+    <string name="distance">Strecke</string>
+    <string name="kilometer">Kilometer</string>
+    <string name="kilometer_per_hour">Km/h</string>
+    <string name="miles">Meilen</string>
+    <string name="miles_per_hours">Mph</string>
+    <string name="open_setting">Einstellungen öffnen</string>
+    <string name="privacy_btn">Fortfahren</string>
+    <string name="privacy_info">Um die App nutzen zu können, musst Du den Datenschutzerklärungen Zustimmen. <a href="https://sites.google.com/view/speedometer-pp">Klicke hier</a>, um sie online zu lesen.</string>
+    <string name="privacy_optin">Ich stimme den Datenschutzerklärungen zu</string>
+    <string name="show_in_kilometers">In Kilometer</string>
+    <string name="show_in_miles">In Meilen</string>
+    <string name="title_activity_policy">Datenschutzerklärung</string>
+
+    <string name="ob_one">1 von 4</string>
+    <string name="ob_three">3 von 4</string>
+    <string name="ob_two">2 von 4</string>
+    <string name="pro">Pro</string>
+    <string name="pro_benefit_1">Keine Werbung</string>
+    <string name="pro_benefit_2">Fahre sicher: Setze verschiedene Intervalle für Geschwindigkeitslimits</string>
+    <string name="pro_benefit_3">Cooles Nacht Erlebnis dank des HUD (Head-Up-Display)</string>
+    <string name="pro_summary">Genieße ein werbefreies Erlebnis und zahlreiche Premium-Funktionen</string>
+    <string name="start_trial">Kostenlose Testphase</string>
+    <string name="trial_desc_1">7-Tage kostenlos, dann</string>
+    <string name="trial_desc_2">/Jahr</string>
+    <string name="user_canceled">Letzte Chance auf Gratis-Phase</string>
+    <string name="read_more">Weiterlesen</string>
+    <string name="alternative_subscription"><u>Oder monatl. Abo ohne gratis Testzeitraum für nur </u></string>
+    <string name="alternative_subscription2"><u>/Monat</u></string>
+    <string name="app_benefit_1">Erfahre deine Perfomance - alle wichtigen Daten im Überblick</string>
+    <string name="app_benefit_3">Verfolge Deinen Fahrten-Verlauf (mit Infos wie z.B. Maximalgeschwindigkeit &amp; vieles mehr)</string>
+    <string name="app_summary">Erlebe die einfachste Art deine Geschwindigkeit zu tracken!</string>
+    <string name="banner_title">Profitiere von einem werbefreien Erlebnis und vielen neuen Premium-Funktionen</string>
+    <string name="btn_ob1">Perfekt, weiter!</string>
+    <string name="btn_ob2">Ok, fortfahren!</string>
+    <string name="btn_ob3">Los geht\'s</string>
+    <string name="more_information">Mehr Informationen</string>
+    <string name="ob2_subtitle">Alle wichtigsten Daten deiner letzten Fahrten im Überblick</string>
+    <string name="ob3_subtitle">Nutze mobile Daten, um die Genauigkeit der Daten zu erhöhen</string>
+    <string name="try_again">Nochmal</string>
+    <string name="app_benefit_2">Großer und schöner Tachometer (noch größer im Querformat)</string>
+    <string name="welcome_to">Willkommen bei</string>
+    <string name="title_ob4">Besseres Erlebnis mit</string>
+    <string name="title_ob2">Fahrten-Verlauf</string>
+    <string name="special_hint">Tipp: Mobile Daten</string>
+</resources>

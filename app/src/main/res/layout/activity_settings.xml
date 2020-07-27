@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/testBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:overScrollMode="never">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40sp"
+            android:drawableStart="@drawable/ic_setting"
+            android:drawablePadding="10sp"
+            android:text="@string/settings"
+            android:textAllCaps="true"
+            android:textSize="@dimen/main_text_size" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginEnd="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/show_speed_in"
+                android:textSize="@dimen/main_text_size" />
+
+            <TextView
+                android:id="@+id/chaneMetricButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:drawableEnd="@drawable/ic_arrow_down"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/main_text_size" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="20sp"
+            android:background="@color/mainGreenColor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/light_theme"
+                android:textSize="@dimen/main_text_size" />
+
+            <Switch
+                android:id="@+id/themeSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/background_switch"
+                android:checked="false"
+                android:paddingStart="5sp"
+                android:paddingTop="5sp"
+                android:paddingEnd="5sp"
+                android:paddingBottom="5sp"
+                android:thumb="@drawable/thumb"
+                android:track="@android:color/transparent" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="20sp"
+            android:background="@color/mainGreenColor" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/speedIntervalsView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:descendantFocusability="blocksDescendants"
+            android:nestedScrollingEnabled="false"
+            android:overScrollMode="never" />
+
+        <TextView
+            android:id="@+id/setSpeedInterval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="20sp"
+            android:drawableEnd="@drawable/ic_arrow_down"
+            android:text="@string/set_speed_limits_intervals"
+            android:textAllCaps="true"
+            android:textSize="@dimen/main_text_size" />
+
+        <View
+            android:id="@+id/bottomDivider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="20sp"
+            android:background="@color/mainGreenColor"
+            android:visibility="visible" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

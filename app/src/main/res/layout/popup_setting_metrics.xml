@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/metricRadioGroup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_popup_dark"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatRadioButton
+        android:id="@+id/inMilesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20sp"
+        android:button="@drawable/selector_setting_radio_button"
+        android:checked="false"
+        android:paddingStart="30sp"
+        android:paddingEnd="30sp"
+        android:text="@string/miles"
+        android:textColor="@color/mainGreenColor"
+        android:textSize="@dimen/main_text_size" />
+
+    <androidx.appcompat.widget.AppCompatRadioButton
+        android:id="@+id/inKilometersButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginBottom="10sp"
+        android:button="@drawable/selector_setting_radio_button"
+        android:checked="false"
+        android:paddingStart="30sp"
+        android:text="@string/kilometer"
+        android:textColor="@color/mainGreenColor"
+        android:textSize="@dimen/main_text_size"
+        tools:ignore="RtlSymmetry" />
+</RadioGroup>

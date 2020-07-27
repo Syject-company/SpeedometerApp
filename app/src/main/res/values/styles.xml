@@ -1,0 +1,41 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="android:fontFamily">@font/agency</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/mainGreenColor</item>
+    </style>
+
+    <style name="RadioButtonStylePortrait" parent="RadioButtonStyle">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Agency_ttf" parent="AppTheme">
+        <item name="android:fontFamily">@font/agency</item>
+    </style>
+
+    <style name="RadioButtonStyleLand" parent="RadioButtonStyle">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="RadioButtonStyle" parent="Agency_ttf">
+        <item name="android:buttonTint">@color/mainGreenColor</item>
+        <item name="android:textColor">@color/mainGreenColor</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TickViewStyle" parent="AppTheme">
+
+    </style>
+
+</resources>

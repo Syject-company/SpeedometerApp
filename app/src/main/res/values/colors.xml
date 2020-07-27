@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="backgroundColor">#000000</color>
+    <color name="greyBackground">#2D2724</color>
+    <color name="gaugeFaceColor">#00FFFFFF</color>
+    <color name="white">#ffffff</color>
+    <color name="mainGreenColor">#12CF95</color>
+    <color name="mainGreenColorLight">#B3F3E3</color>
+    <color name="mainGreenColorDark">#14AD7D</color>
+    <color name="disableSetIntervalTextColor">#6f7e79</color>
+</resources>

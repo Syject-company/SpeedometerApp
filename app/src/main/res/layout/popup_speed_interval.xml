@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/limitSettingLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10sp"
+    android:layout_marginEnd="10sp"
+    android:background="@drawable/background_popup_dark"
+    android:orientation="vertical"
+    android:padding="10sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_color"
+            android:textSize="@dimen/main_text_size" />
+
+        <View
+            android:id="@+id/colorPicker"
+            android:layout_width="80sp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="5sp"
+            android:background="@color/mainGreenColor"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15sp"
+            android:text="@string/set_speed"
+            android:textSize="@dimen/main_text_size" />
+
+        <EditText
+            android:id="@+id/speedLimitEditText"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10sp"
+            android:backgroundTint="@color/mainGreenColor"
+            android:gravity="center"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textColor="@color/mainGreenColor"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/metricText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="15sp"
+            android:textSize="@dimen/main_text_size" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4sp"
+            android:text="@string/sound"
+            android:textSize="@dimen/main_text_size" />
+
+        <TextView
+            android:id="@+id/isSoundEnableButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/sound_disable"
+            android:textAllCaps="true"
+            android:textSize="@dimen/main_text_size" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/addIntervalButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10sp"
+        android:text="@string/add"
+        android:textAllCaps="true"
+        android:textSize="25sp" />
+</LinearLayout>

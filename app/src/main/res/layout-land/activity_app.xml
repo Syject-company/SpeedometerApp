@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gauge="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mirrorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:baselineAligned="false"
+    android:orientation="horizontal">
+
+
+    <com.trackingdeluxe.speedometer.ui.custom.GaugeView
+        android:id="@+id/gaugeView"
+        android:layout_width="0sp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        gauge:faceColor="@color/gaugeFaceColor"
+        gauge:initialValue="0"
+        gauge:lowerText="@string/speed"
+        gauge:majorNickInterval="10"
+        gauge:minValue="0"
+        gauge:needleColor="@color/mainGreenColor"
+        gauge:scaleColor="@color/mainGreenColor"
+        gauge:valuePerNick="1"
+        tools:ignore="NestedWeights" />
+
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="0sp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.7">
+
+        <RelativeLayout
+            android:id="@+id/buttonLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/hudButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hud"
+                android:textSize="@dimen/main_text_size"
+                android:textStyle="bold"
+                tools:ignore="RelativeOverlap" />
+
+            <TextView
+                android:id="@+id/proButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pro"
+                android:textSize="@dimen/main_text_size"
+                android:textStyle="bold"
+                tools:ignore="RelativeOverlap" />
+
+            <TextClock
+                android:id="@+id/textClock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:drawableStart="@drawable/ic_history"
+                android:drawablePadding="20sp"
+                android:format12Hour="HH:mm"
+                android:format24Hour="HH:mm"
+                android:textSize="@dimen/main_text_size"
+                tools:ignore="NestedWeights,RelativeOverlap" />
+
+            <ImageView
+                android:id="@+id/settingButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_setting"
+                tools:ignore="ContentDescription" />
+        </RelativeLayout>
+
+        <include layout="@layout/content_ride_info_layout" />
+    </RelativeLayout>
+</LinearLayout>

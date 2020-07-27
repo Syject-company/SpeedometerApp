@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="continue2">Weiter</string>
+    <string name="cta_improvement">Hi, wärst Du bereit uns zu helfen, indem Du drei Fragen beantwortest? Es dauert maximal 30 Sekunden.</string>
+    <string name="cta_improvement2">Lass uns wissen, welche Verbesserungsvorschläge Du für die App hast, z.B. neue Funktionen oder Fehler</string>
+    <string name="cta_rate">Wie würdest Du Dein Erlebnis mit der App bis jetzt bewerten?</string>
+    <string name="later">Frag mich später</string>
+    <string name="leave_review">Kannst Du uns eine Bewertung im Google Playstore hinterlassen? Wir wären Dir dafür sehr dankbar, da es extrem weiterhilft.</string>
+    <string name="no_thanks">Nein, danke</string>
+    <string name="send">Senden</string>
+    <string name="sure">Ja, gerne</string>
+    <string name="min_rating">Bitte bewerte Deine bisherige Erfahrung von 1 bis 5 Sterne</string>
+</resources>
